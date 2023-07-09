@@ -1,0 +1,7 @@
+FROM tarantool/tarantool:2.11.0-ubuntu20.04
+
+WORKDIR /app
+RUN apt -y update && apt -y upgrade && apt -y install curl git
+RUN tarantoolctl rocks install queue
+
+ENTRYPOINT ["tarantool", "tarantool.lua"]
