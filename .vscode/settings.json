@@ -1,0 +1,14 @@
+{
+    "Lua.diagnostics.globals": [
+        "box",
+        "queue"
+    ],
+    "cSpell.words": [
+        "mhutchie",
+        "riussi",
+        "sumneko",
+        "Tarantool",
+        "Waka",
+        "wakatime"
+    ]
+}
